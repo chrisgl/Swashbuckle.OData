@@ -43,7 +43,7 @@ namespace Swashbuckle.OData.Descriptions
             requestContext.RouteData = request.GetRouteData();
             requestContext.Url = new UrlHelper(request);
             requestContext.VirtualPathRoot = perControllerConfig.VirtualPathRoot;
-
+            // test ob änderungen kopiert werden 
             try
             {
                 var controllerContext = new HttpControllerContext(httpConfig, request.GetRouteData(), request)
