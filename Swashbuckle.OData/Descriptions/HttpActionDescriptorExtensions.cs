@@ -35,8 +35,5 @@ namespace Swashbuckle.OData.Descriptions
             var documentationProvider = actionDescriptor.Configuration.Services.GetDocumentationProvider();
             return documentationProvider?.GetResponseDocumentation(actionDescriptor);
         }
-
-        public static void TestMethodeUmCopyZuTesten()
-        { }
     }
 }
